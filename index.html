@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+  <title>amazing places</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="places.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+</head>
+
+<body>
+  <header class="jumbotron text-center p-3 mb-4 col-sm-10 mx-auto" id="head">
+    <h1 id="nadpis" class="display-2 text-uppercase">amazing places</h1>
+  </header>
+  <main class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <!-- reakce na udalost -->
+        <h2 class="my-2" id="fall">seljalandsfoss</h2>
+        <ul>
+          <li>
+            je jedním z nejznámějších vodopádů na Islandu.<span id="dots">...</span><span id="more">Leží nedaleko
+              pobřeží na jihu
+              ostrova mezi městem Selfoss a vodopádem Skógafoss. Poblíž něj odbočuje z Hringvegur cesta do údolí
+              Þórsmörk.
+              Je napájen řekou Seljalandsá. Padá z bývalých útesů do hloubky 60 metrů.
+              Byl cílem první etapy během 6. dílu soutěže The Amazing Race.
+            </span></li>
+          <button class="btn btn-outline-light my-2" onclick="myFunction()" id="myBtn">Read more</button>
+        </ul>
+        <img id="img" src="js/img/watefall.jpg" alt="" width="100%">
+      </div>
+      <div class="col-md-6">
+        <h2 class="my-2" id="canyon">antelope canyon</h2>
+        <ul>
+          <li>
+            je nejnavštěvovanější štěrbinový kaňon na jihozápadě<span id="dots2">...</span><span id="more2">Spojených
+              států. Skládá se z Horního Antilopího
+              kaňonu (anglicky Upper Antelope Canyon) a Dolního Antilopího kaňonu (anglicky Lower Antelope Canyon) a
+              nachází se v blízkosti města Page v Arizoně. Poblíž se nachází Antelope Creek, potok s délkou asi 30 km.
+              Antilopí kaňony se nachází v blízkosti jezera Powell. Místy jsou v kaňonech umístěny žebříky, protože
+              některé části jsou neschůdné. Pokud jsou předpovídány deště, je zakázána návštěva kaňonů kvůli možným
+              povodním. V roce 1997 při potopě v Dolním Antilopím kaňonu zahynulo jedenáct turistů. Oba kaňony jsou
+              přístupné pouze prostřednictvím placených prohlídek s průvodcem.
+            </span></li>
+          <button class="btn btn-outline-light my-2" onclick="myFunction2()" id="myBtn2">Read more</button>
+        </ul>
+        <img id="canyon_img" src="js/img/canyon.jpg" alt="" width="100%">
+      </div>
+      <div class="col-md-6">
+        <h2 class="my-2" id="salt_nadpis">salar de uyuni</h2>
+        <ul>
+          <li>je největší solná pláň na světě, jež byla <span id="dots3">...</span> <span id="more3">dříve dnem jezera. Má rozlohu 10 582 km² (přibližně jako
+            rozloha Libanonu, resp. 25× větší než solná pláň Bonneville Salt Flats v Utahu v USA). Nachází se v
+            departementech Potosí a Oruro na jihu Bolívie v blízkosti hřebenu And v nadmořské výšce 3650 m. Je
+            pozůstatkem pleistocénního jezera Ballivián.</span></li>
+            <button class="btn btn-outline-light my-2" onclick="myFunction3()" id="myBtn3">Read more</button>
+        </ul>
+        <img id="salt" src="js/img/salt.jpg" alt="" width="100%">
+      </div>
+      <div class="col-md-6">
+        <h2 class="my-2" id="jezero">moraine lake</h2>
+        <ul>
+          <li>je ledovcové jezero v Národním parku Banff v Kanadě. Leží<span id="dots4">...</span> <span id="more4">čtrnáct kilometrů od vesnice Lake Louise v údolí
+            Valley of the Ten Peaks, v nadmořské výšce přibližně 1885 m n. m. Rozkládá se na ploše půl čtverečního
+            kilometru. V oblasti kolem jezera se nachází několik pěších turistických stezek. Jedna z nejčastěji
+            využívaných stezek nese název Rockpile Trail a táhne se kolem morény.</span></li>
+            <button class="btn btn-outline-light my-2" onclick="myFunction4()" id="myBtn4">Read more</button>
+          </ul>
+        <img id="lake" src="js/img/lake.jpg" alt="" width="100%">
+      </div>
+    </div>
+  </main>
+  <footer class="container-fluid">
+    <hr id="one">
+    <div class="jumbotron text-center p-3 my-1 col-sm-10 mx-auto" id="footer">
+      &copy; 2020 - <b>SŠPU Opava</b> - Štěpán Krautwurst
+    </div>
+  </footer>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+  <!-- JavaScript vlozeni do HTML -->
+  <script>
+    // alert("Funguje to");
+    // document.write("<h1 class=\"jumbotron\">Funguje to</h1>");
+    console.log("Funguje to");
+    console.log(8 ** (1 / 3));
+  </script>
+  <!-- JavaScript pripojeny z externiho souboru .js -->
+  <script src="js/muj.js"></script>
+</body>
+
+</html>

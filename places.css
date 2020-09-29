@@ -1,0 +1,94 @@
+
+.darkmode--activated li {
+    color: #ffffff;
+}
+.darkmode--activated h2 {
+    color: #ffffff;
+}
+.darkmode--activated h1 {
+    color: #000000;
+}
+#more {display: none;
+}
+#more2 {display: none;
+}
+#more3{display: none;
+}
+#more4{display: none;
+}
+.darkmode--activated #myBtn{
+   background-color: rgb(255, 255, 255);
+   color: black;
+   border: rgb(255, 255, 255);
+   outline: 4px solid black;
+}
+#myBtn{
+    background-color: rgba(0, 0, 0, 0.801);
+    color: white;
+    border: rgba(0, 0, 0, 0.801);;
+}
+.darkmode--activated #myBtn2{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: rgb(255, 255, 255);
+    outline: 4px solid black;
+}
+#myBtn2{
+    background-color: rgba(0, 0, 0, 0.801);
+    color: white;
+    border: rgba(0, 0, 0, 0.801);;
+}
+.darkmode--activated #myBtn3{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: rgb(255, 255, 255);
+    outline: 4px solid black;
+}
+#myBtn3{
+    background-color: rgba(0, 0, 0, 0.801);
+    color: white;
+    border: rgba(0, 0, 0, 0.801);;
+}
+.darkmode--activated #myBtn4{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: rgb(255, 255, 255);
+    outline: 4px solid black;
+}
+#myBtn4{
+    background-color: rgba(0, 0, 0, 0.801);
+    color: white;
+    border: rgba(0, 0, 0, 0.801);;
+}
+.darkmode--activated #one{
+    border: none;
+    height: 1px;
+    background: white;
+    isolation: isolate;
+}
+#one {
+    border: none;
+    height: 1px;
+    background: #000000; 
+}
+#head {
+    background-color: rgba(0, 0, 0, 0.875) !important;
+    color: white;
+    transform: translateY(15px);
+}
+.darkmode--activated #head{
+    background-color:rgb(255, 255, 255)  !important;
+    color: black;
+}
+#footer {
+    background-color: rgba(0, 0, 0, 0.875) !important;
+    color: white;
+    transform: translateY(-5px);
+}
+.darkmode--activated #footer{
+    background-color:rgb(255, 255, 255)  !important;
+    color: black;
+}
+button{
+    z-index: 1;
+}
